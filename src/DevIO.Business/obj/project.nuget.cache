@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "h63kVUIczSPkUOu2TG5guvcZpwZCAf3tDAqj6bm1lV33oapqfaIdvxlCMCya42ij6F/k7AtiuHmD1X6Dtb3acw==",
+  "dgSpecHash": "DFwYw0+vzfpnALXgs25Qe6mdkQMTLtboAbRKcyVcwtrGSUmHXqq3hu7eQzymME4xwMla043cw1WvgaXR0WQ7iA==",
   "success": true,
   "projectFilePath": "/home/joaopedro/Estudos/DevIO/src/DevIO.Business/DevIO.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/joaopedro/.nuget/packages/fluentvalidation/10.3.4/fluentvalidation.10.3.4.nupkg.sha512"
+  ],
   "logs": []
 }
