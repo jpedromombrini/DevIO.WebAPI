@@ -49,7 +49,7 @@ namespace DevIO.API.Controllers
             }
         }
 
-        private void NotificarErro(string errorMsg)
+        protected void NotificarErro(string errorMsg)
         {
             _notificador.Handle(new Notificacao(errorMsg));
         }
