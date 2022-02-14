@@ -1,0 +1,15 @@
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/bin/Debug/net6.0/DevIO.Data.deps.json
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/bin/Debug/net6.0/DevIO.Data.dll
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/bin/Debug/net6.0/ref/DevIO.Data.dll
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/bin/Debug/net6.0/DevIO.Data.pdb
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/bin/Debug/net6.0/DevIO.Business.dll
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/bin/Debug/net6.0/DevIO.Business.pdb
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/obj/Debug/net6.0/DevIO.Data.csproj.AssemblyReference.cache
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/obj/Debug/net6.0/DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/obj/Debug/net6.0/DevIO.Data.AssemblyInfoInputs.cache
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/obj/Debug/net6.0/DevIO.Data.AssemblyInfo.cs
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/obj/Debug/net6.0/DevIO.Data.csproj.CoreCompileInputs.cache
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/obj/Debug/net6.0/DevIO.Data.csproj.CopyComplete
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/obj/Debug/net6.0/DevIO.Data.dll
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/obj/Debug/net6.0/ref/DevIO.Data.dll
+/home/joaopedro/Estudos/DevIO/src/DevIO.Data/obj/Debug/net6.0/DevIO.Data.pdb
