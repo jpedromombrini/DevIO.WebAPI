@@ -65,3 +65,4 @@
 /home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
 /home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/Humanizer.dll
 /home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/DevIO.API.staticwebassets.runtime.json

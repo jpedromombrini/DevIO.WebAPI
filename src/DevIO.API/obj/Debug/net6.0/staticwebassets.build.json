@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "PwFD87z72ApXhDC9+dm3lLphXSFN40NuJ7ApukPPJqk=",
+  "Hash": "cJuxkAObk6XqfOJwFUo9JgNm4lu4zhbz+usuuu6Gf6c=",
   "Source": "DevIO.API",
   "BasePath": "_content/DevIO.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DevIO.API/wwwroot",
+      "Source": "DevIO.API",
+      "ContentRoot": "/home/joaopedro/Estudos/DevIO/src/DevIO.API/wwwroot/",
+      "BasePath": "_content/DevIO.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
