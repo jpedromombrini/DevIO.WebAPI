@@ -1,6 +1,5 @@
 /home/joaopedro/Estudos/DevIO/src/DevIO.Business/bin/Debug/net6.0/DevIO.Business.deps.json
 /home/joaopedro/Estudos/DevIO/src/DevIO.Business/bin/Debug/net6.0/DevIO.Business.dll
-/home/joaopedro/Estudos/DevIO/src/DevIO.Business/bin/Debug/net6.0/ref/DevIO.Business.dll
 /home/joaopedro/Estudos/DevIO/src/DevIO.Business/bin/Debug/net6.0/DevIO.Business.pdb
 /home/joaopedro/Estudos/DevIO/src/DevIO.Business/obj/Debug/net6.0/DevIO.Business.csproj.AssemblyReference.cache
 /home/joaopedro/Estudos/DevIO/src/DevIO.Business/obj/Debug/net6.0/DevIO.Business.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,3 +9,4 @@
 /home/joaopedro/Estudos/DevIO/src/DevIO.Business/obj/Debug/net6.0/DevIO.Business.dll
 /home/joaopedro/Estudos/DevIO/src/DevIO.Business/obj/Debug/net6.0/ref/DevIO.Business.dll
 /home/joaopedro/Estudos/DevIO/src/DevIO.Business/obj/Debug/net6.0/DevIO.Business.pdb
+/home/joaopedro/Estudos/DevIO/src/DevIO.Business/obj/Debug/net6.0/refint/DevIO.Business.dll

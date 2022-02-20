@@ -3,7 +3,6 @@
 /home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/DevIO.API.deps.json
 /home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/DevIO.API.runtimeconfig.json
 /home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/DevIO.API.dll
-/home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/ref/DevIO.API.dll
 /home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/DevIO.API.pdb
 /home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/AutoMapper.dll
 /home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -66,3 +65,11 @@
 /home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/Humanizer.dll
 /home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
 /home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/DevIO.API.staticwebassets.runtime.json
+/home/joaopedro/Estudos/DevIO/src/DevIO.API/obj/Debug/net6.0/refint/DevIO.API.dll
+/home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll
+/home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/home/joaopedro/Estudos/DevIO/src/DevIO.API/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll

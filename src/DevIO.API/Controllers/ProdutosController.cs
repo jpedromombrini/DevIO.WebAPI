@@ -11,16 +11,16 @@ namespace DevIO.API.Controllers
     {
         private readonly IProdutoRepository _produtoRepository;
         private readonly IProdutoService _produtoService;
-        private readonly IMapper _mapper;
+        private readonly IMapper _mapper;        
         public ProdutosController(IProdutoRepository produtoRepository,
-                                  IProdutoService produtoService, 
+                                  IProdutoService produtoService,
                                   IMapper mapper,
                                   INotificador notificador) : base(notificador)
         {
             _produtoRepository = produtoRepository;
             _produtoService = produtoService;
             _mapper = mapper;
-        }
+        }        
         [HttpGet]
         public async Task<IEnumerable<ProdutoDto>> ObterTodos()
         {
@@ -29,7 +29,7 @@ namespace DevIO.API.Controllers
         [HttpGet("{id:guid}")]
         public async Task<ActionResult<ProdutoDto>> ObterPorId(Guid id)
         {
-            var produtoDto = await ObterProduto(id);
+            var produtoDto = await ObterProduto(id);            
             if(produtoDto == null) return NotFound();
             return produtoDto;
         }
@@ -41,6 +41,35 @@ namespace DevIO.API.Controllers
             return CustomResponse(produtoDto);
 
         }
+        [HttpPut("{id:guid}")]
+        public async Task<IActionResult>Atualizar(Guid id, ProdutoDto produtoDto)
+        {
+            if(id != produtoDto.Id)
+            {
+                NotificarErro("Os ids informados não são iguais");
+                return CustomResponse();
+            }
+            var produtoAtualizacao = await ObterProduto(id);
+            produtoDto.Imagem = produtoAtualizacao.Imagem;
+            if(!ModelState.IsValid) return CustomResponse(ModelState);
+
+            if(produtoDto.ImagemUpload != null)
+            {
+                var imgNome = Guid.NewGuid()+"_"+produtoDto.Imagem;
+                if(!UploadArquivo(produtoDto.ImagemUpload, imgNome))
+                {
+                    return CustomResponse(ModelState);
+                }
+                produtoAtualizacao.Imagem = imgNome;
+            }
+            produtoAtualizacao.Nome = produtoAtualizacao.Nome;
+            produtoAtualizacao.Descricao = produtoDto.Descricao;
+            produtoAtualizacao.Valor = produtoDto.Valor;
+            produtoAtualizacao.Ativo = produtoDto.Ativo;
+
+            await _produtoService.Atualizar(_mapper.Map<Produto>(produtoAtualizacao));
+            return CustomResponse(produtoDto);
+        }
         [HttpDelete("{id:guid}")]
         public async Task<ActionResult<ProdutoDto>> Exckuir(Guid id)
         {
@@ -50,13 +79,13 @@ namespace DevIO.API.Controllers
             return CustomResponse(produto);
         }
         private bool UploadArquivo(string arquivo, string imgNome)
-        {
-            var imageDataByteArray = Convert.FromBase64String(arquivo);
+        {            
             if(string.IsNullOrEmpty(arquivo))
             {                
                 NotificarErro("Forneça uma imagem para este produto");
                 return false;
             }
+            var imageDataByteArray = Convert.FromBase64String(arquivo);
             var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/imagens", imgNome);
             if(System.IO.File.Exists(filePath))
             {                
